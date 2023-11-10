@@ -1,0 +1,52 @@
+/* tablet */
+
+@media screen and (max-width:750px) {
+    .parent {
+        width: 40vw;
+        font-size: small;
+
+        display: flex;
+        margin-left: 20%;
+    }
+
+    .two {
+        margin-left: 10%;
+
+
+    }
+
+    .display {
+        width: fit-content;
+    }
+
+}
+
+/* mobile  */
+@media screen and (max-width:450px) {
+    .parent {
+        width: 40vw;
+        font-size: small;
+
+        display: flex;
+        /* margin-left: 20%; */
+    }
+
+    .two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .ppp {
+        font-size: small;
+    }
+    .justify{
+        margin-right: 10%;
+    }
+
+    .display {
+        width: fit-content;
+    }
+}
